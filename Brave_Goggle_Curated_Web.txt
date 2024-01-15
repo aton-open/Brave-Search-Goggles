@@ -26,8 +26,8 @@ $boost=1,site=github.io
 ! (Websites containing news)
 $boost=2,site=apnews.com
 $boost=1,site=npr.org
-$boost=1,site=time.com/section/business
-$boost=1,site=time.com/section/us/
+$boost=1,site=time.com
+
 $boost=1,site=globaltimes.cn
 $boost=1,site=finance.yahoo.com
 $boost=2,site=aljzeera.com
@@ -37,7 +37,7 @@ $boost=2,site=theverge.com
 $boost=1,site=androidauthority.com
 ! —Not recommended—
 $downrank=2,site=cnn.com
-$donwrank=2,site=foxnews.com
+$downrank=2,site=foxnews.com
 $downrank=1,site=abcnews.go.com
 $downrank=1,site=cbsnews.com
 $downrank=1,site=usnews.com
@@ -47,7 +47,7 @@ $downrank=2,site=news.google.com
 
 ! Maps & Phonebook
 $boost=1,site=maps.google.com
-$boost=1,site=bing.com/maps
+
 $boost=1,site=yellowpages.com
 $boost=1,site=yelp.com
 
@@ -63,7 +63,7 @@ $downrank=8,site=x.com
 $downrank=8,site=instagram.com
 
 ! Government & Official
-$boost=1,site=travel.state.gov/content/travel/en/international-travel.html
+$boost=1,site=travel.state.gov
 $boost=1,site=irs.gov
 $boost=1,site=usa.gov
 $boost=1,site=fcc.gov
