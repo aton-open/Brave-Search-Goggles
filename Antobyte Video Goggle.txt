@@ -1,4 +1,4 @@
-! name: Antobyte Curated Web
+! name: Antobyte Video Services
 ! description: Antobyte’s list of video websites
 ! public: true
 ! author: ajb
