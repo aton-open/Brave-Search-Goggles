@@ -1,0 +1,146 @@
+! name: Antobyte Curated Web
+! description: Antobyte’s list of websites for quality information. Learn more at (link coming soon)
+! public: true
+! author: ajb
+
+! Blocklist
+! Def = blocks all sites except the ones listed
+$discard
+
+
+
+! General Information
+$boost=5, site=wikipedia.org
+$boost=5, site=citizendium.org
+$boost=5, site=nasa.gov
+$boost=5, site=scholar.google.com
+$boost=5, site=sciencedirect.com
+$boost=5, site=encyclopedia.com
+$boost=5, site=britanica.com
+$boost=4, site=archive.org
+$boost=1, site=howstuffworks.com
+$boost=1, site=github.com
+$boost=1, site=github.io
+
+
+
+
+! News 
+! (Websites containing news)
+$boost=2, site=apnews.com
+$boost=1, site=npr.org
+$boost=1, site=time.com/section/business
+$boost=1, site=time.com/section/us/
+$boost=1, site=globaltimes.cn
+$boost=1, site=finance.yahoo.com
+$boost=2, site=aljzeera.com
+$boost=1, site=businessinsider.com
+! —tech news—
+$boost=2, site=theverge.com
+$boost=1, site=androidauthority.com
+! —Not recommended—
+$downrank=2, site=cnn.com
+$donwrank=2, site=foxnews.com
+$downrank=1, site=abcnews.go.com
+$downrank=1, site=cbsnews.com
+$downrank=1, site=usnews.com
+$downrank=2, site=news.google.com
+
+! Images
+
+! Maps & Phonebook
+$boost=1, site=maps.google.com
+$boost=1, site=bing.com/maps
+$boost=1, site=yellowpages.com
+$boost=1, site=yelp.com
+
+
+! Media & Social
+$boost=5, site=quitt.net
+$boost=3, site=youtube.com
+$boost=5, site=reddit.com
+$boost=1, site=quora.com
+
+$downrank=8, site=facebook.com
+$downrank=8, site=twitter.com
+$downrank=8, site=x.com
+$downrank=8, site=instagram.com
+
+! Government & Official
+$boost=1, site=travel.state.gov/content/travel/en/international-travel.html
+$boost=1, site=irs.gov
+$boost=1, site=usa.gov
+$boost=1, site=fcc.gov
+$boost=1, site=ftc.gov
+$boost=1, site=whitehouse.gov
+$boost=1, site=bbb.org
+
+
+! Services
+! (Useful websites, places where you go to have a service completed)
+$boost=2, site=icloud.com
+$boost=1, site=drive.google.com
+$boost=2, site=angi.com
+$boost=2, site=classifiedads.com
+
+$downrank=1, site=amazon.com
+$downrank=9, site=aliexpress.com
+$downrank=9, site=temu.com
+$downrank=9, site=wish.com
+
+! General Sites
+$boost=1, site=imdb.com
+$boost=1, site=stackexchange.com
+! —Tech—
+$boost=1, site=apple.com
+$boost=1, site=samsung.com
+$boost=1, site=sony.com
+$boost=1, site=ycombinator.com
+$boost=1, site=fairphone.com
+$boost=1, site=myteracube.com
+$boost=1, site=pine64.org
+! — Shop:General—
+$boost=2, site=target.com
+$boost=2, site=khols.com
+$boost=2, site=sears.com
+$boost=2, site=apartments.com
+$boost=2, site=autozone.com
+$boost=2, site=oreillyauto.com
+$boost=2, site=advanceautoparts.com
+$boost=1, site=walmart.com
+$boost=1, site=etsy.com
+$boost=1, site=ebay.com
+$boost=1, site=craigslist.org
+! — Shop:Clothing —
+$boost=2, site=abercrombie.com
+$boost=2, site=logofree.clothing
+$boost=2, site=theunbrandedbrand.com
+$boost=2, site=hm.com
+$boost=2, site=macys.com
+$boost=2, site=gap.com
+$boost=2, site=ae.com
+$boost=2, site=nastygal.com
+$boost=2, site=nordstrom.com
+$boost=2, site=zara.com
+$boost=2, site=asos.com
+$boost=2, site=allbirds.com
+$boost=2, site=nike.com
+$boost=2, site=rei.com
+$boost=2, site=adidas.com
+$boost=2, site=vans.com
+$boost=2, site=zerowastedaniel.com
+$boost=2, site=dillards.com
+$boost=2, site=bloomingdales.com
+$boost=1, site=marshalls.com
+! —Shop:Electronics—
+$boost=1, site=newegg.com
+
+! Movements & Charities
+$boost=1, site=charitynavigator.org
+$boost=1, site=gofundme.com
+
+! Adults Only
+$boost=1, site=xvideos.com
+$boost=1, site=adamandeve.com
+
+
