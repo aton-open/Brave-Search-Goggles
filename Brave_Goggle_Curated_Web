@@ -10,7 +10,7 @@ $discard
 
 
 ! General Information
-$boost=5, site=wikipedia.org
+$boost=5,site=wikipedia.org
 $boost=5, site=citizendium.org
 $boost=5, site=nasa.gov
 $boost=5, site=scholar.google.com
