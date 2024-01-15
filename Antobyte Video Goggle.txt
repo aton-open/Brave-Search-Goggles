@@ -1,0 +1,20 @@
+! name: Antobyte Curated Web
+! description: Antobyte’s list of video websites
+! public: true
+! author: ajb
+
+! Blocklist
+! Def = blocks all sites except the ones listed
+$discard
+
+$boost=6,site=quitt.net
+$boost=5,site=odysee.com
+$boost=5,site=rumble.com
+$boost=4,site=video.search.yahoo.com
+
+$boost=2,site=sepiasearch.org
+
+$boost=1,site=d.tube
+$bost=1,site=open-video.org
+$boost=1,site=bitchute.com
+$boost=1,site=youtube.com
